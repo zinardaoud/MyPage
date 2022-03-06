@@ -1,0 +1,295 @@
+* {
+    margin:0;
+    font-family:'Courier New', Courier, monospace;
+    letter-spacing: 1px;
+    text-shadow: 0 0 20px  rgba(255, 255, 255, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-transform: uppercase;
+}
+
+body{
+    background: linear-gradient(135deg, #00416a, #e4e5e6);
+}
+.menu {
+    max-width: 1000px;
+    align-content: center;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    border-radius: 20%;
+}
+.menu li {
+    flex: 3;
+    min-width: 17%;
+}
+
+.menu li a{
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    color:rgb(250, 250, 250);
+    letter-spacing: 1px;
+    font-weight: bolder;
+    background: #262626;
+    font-family:'Courier New', Courier, monospace;
+    padding: 20px 5px;
+}
+.menu li a:hover {
+    transition: 1.5s;
+    color: black;
+    background-color: white;
+}
+.menu a.is-active {
+    color: black;
+    background-color: white;
+
+}
+
+#home{
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+#about{
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.main-container{
+    text-align: center;
+    padding: 0 0;
+    width: 100%;
+    
+}
+#main-index{
+    height: 37.8rem;
+}
+#main-index h2{
+    padding: 1rem 0;
+    margin-top: 1rem;
+
+}
+#main-index p{
+    max-width: 50rem;
+    font-size: 18px;
+
+}
+#main-p{
+    padding-bottom: 5.3 rem;
+}
+
+
+.profile-pic{
+    margin: 2rem;
+    width: 300px;
+    height: 300px;
+    border-radius: 40vh 40vh;
+    border: inset 5px #f5af19;
+}
+#main-blog h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    
+}
+#main-blog h2{
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: start;
+}
+#blog-latest{
+    margin: 4rem 10rem -9rem 23.5%;
+}
+
+.blog-ulist{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: center;
+    margin: 9.2rem 0;
+}
+.blog-ulist li{
+    list-style: none;
+    position: relative;
+    margin: 25px;
+    
+}
+.blog-ulist img{
+    width: 300px ;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 2px;
+    border: inset 5px white;
+
+
+}
+.blog-ulist h2{
+    background: #f5af19;
+    position: absolute;
+    bottom: 20px;
+    right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    flex-grow: 1;
+    color: #000;
+    
+}
+#main-about{
+    font-size: large;
+    margin-top: 5rem;
+}
+#main-about h1, #main-about h2{
+    text-transform: uppercase;
+}
+#main-about p{
+    margin: 2% 25%;
+}
+#main-cv{
+    text-align: left;
+    max-width: 50rem;
+    
+}
+.cv-container section, #main-cv h1{
+    display: block;
+    padding-bottom: 1rem;
+}
+#main-cv h1{
+    padding-right: 20.5rem;
+}
+.cv-container section h2, .cv-container section h3, .cv-container section p {
+    padding-bottom: 1rem;
+}
+.cv-container span{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.cv-container span a{
+    margin-left: 10rem;
+    background: #f5af19;
+    padding: 0.5rem;
+    border-radius: 20px;
+    font-weight: bolder;
+    border: inset 2px white;
+    color: #000;
+    text-decoration: none;
+}
+
+
+#main-portfolio{
+    width: 50em;
+    border: inset 2px #f5af19;
+    border-radius: 2rem;
+
+}
+
+.git-repo h1{
+    border-bottom: inset 1px #f5af19;
+    padding: 2rem;
+    
+}
+.git-repo h2{
+    padding: 2rem 0;
+}
+.git-repo p{
+    padding: 0 2rem;
+    font-size: large;
+}
+.git-repo li img{
+    border: inset 3px #f5af19;
+    max-width: 20em;
+    max-height: 20em;
+
+}
+.git-repo li{
+    border-top: inset 1px #f5af19;
+    list-style: none;
+    margin-left: -2.5rem;
+    display: flex;
+
+}
+
+#database-img{
+    border-radius: 0 0 0 10%;
+}
+
+.modular-content{
+    font-size: larger;
+    width: 100px;
+    opacity: 0;
+}
+.modular-content{
+    font-size: larger;
+    background-color: #e4e5e6;
+    width: 100px;
+}
+#education div{
+    margin: 2rem 0;
+}
+#work-exp div{
+    margin: 2rem 0;
+}
+
+
+
+
+
+
+
+
+footer {
+    padding-top: 2rem;
+    margin-top: 3rem;
+    background-color: #262626;
+    color:  #f5af19;
+    text-align: center;
+}
+
+footer img{
+    max-width: 30px;
+    margin-right: 25px;
+    filter: brightness(1) invert(1);
+}
+
+footer ul {
+    align-items: center;
+    list-style: none;
+}
+footer li {
+    justify-content: center;
+}
+
+footer li a{
+    padding: 2px;
+    margin: 2rem;
+}
+
+.contact-info {
+    list-style: none;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.copyright {
+    background: #000;
+    margin: 0;
+    padding: 0.5rem;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+#bg-button{
+    background-color: transparent;
+    border: transparent;
+    color: #f5af19;
+    font-size: 20px;
+}
