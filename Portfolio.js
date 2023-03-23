@@ -37,22 +37,22 @@ class MyComponent extends React.Component {
                             <li>
                                 <img src="./Media/stockolor.jpg" />
                                 <div>
-                                <h2>{items[0].name}</h2>
-                                <p>{items[0].description}</p>
+                                <h2>{items[5].name}</h2>
+                                <p>{items[5].description}</p>
                                 </div>
                             </li>
                             <li>
                                 <img src="./Media/MaxPixel.net-Minimalist-Minimal-Modern-Cartoon-Flat-Avatar-5261896.png" />
                                 <div>
-                                <h2>{items[2].name}</h2>
-                                <p>{items[2].description}</p>
+                                <h2>{items[10].name}</h2>
+                                <p>{items[10].description}</p>
                                 </div>
                             </li>
                             <li>
                                 <img id = "database-img" src="./Media/Data-Memory-Database-Cloud-4941301.png" />    
                                 <div>
-                                <h2>{items[4].name}</h2>
-                                <p>{items[4].description}</p>
+                                <h2>{items[8].name}</h2>
+                                <p>{items[8].description}</p>
                                 </div>
                             </li>
                         </ul>
